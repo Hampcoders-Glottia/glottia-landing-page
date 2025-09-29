@@ -1,0 +1,137 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    --background: 252 100% 99%;
+    --foreground: 224 71% 4%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 224 71% 4%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 224 71% 4%;
+
+    --primary: 220 87% 56%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 220 14% 96%;
+    --secondary-foreground: 220 9% 46%;
+
+    --muted: 220 14% 96%;
+    --muted-foreground: 220 9% 46%;
+
+    --accent: 142 72% 29%;
+    --accent-foreground: 355 7% 97%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 220 13% 91%;
+    --input: 220 13% 91%;
+    --ring: 220 87% 56%;
+
+    --radius: 0.75rem;
+
+    /* Glottia Brand Colors */
+    --brand-blue: 220 87% 56%;
+    --brand-blue-light: 220 87% 70%;
+    --brand-blue-dark: 220 87% 45%;
+    
+    --brand-green: 142 72% 29%;
+    --brand-green-light: 142 72% 45%;
+    --brand-green-dark: 142 72% 20%;
+    
+    --brand-orange: 25 95% 53%;
+    --brand-orange-light: 25 95% 65%;
+    --brand-orange-dark: 25 95% 40%;
+
+    --brand-purple: 267 84% 81%;
+    --brand-purple-light: 267 84% 90%;
+    --brand-purple-dark: 267 84% 70%;
+
+    /* Gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(var(--brand-blue)), hsl(var(--brand-purple)));
+    --gradient-accent: linear-gradient(135deg, hsl(var(--brand-green)), hsl(var(--brand-blue-light)));
+    --gradient-warm: linear-gradient(135deg, hsl(var(--brand-orange)), hsl(var(--brand-orange-light)));
+    --gradient-subtle: linear-gradient(180deg, hsl(var(--background)), hsl(var(--secondary)));
+
+    /* Shadows */
+    --shadow-soft: 0 4px 20px -4px hsl(var(--brand-blue) / 0.15);
+    --shadow-glow: 0 0 40px hsl(var(--brand-blue) / 0.2);
+    --shadow-card: 0 8px 32px -8px hsl(var(--foreground) / 0.08);
+
+    /* Animations */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 224 71% 4%;
+    --foreground: 210 40% 98%;
+
+    --card: 224 66% 7%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 224 66% 7%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 220 87% 56%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 224 71% 10%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 224 71% 10%;
+    --muted-foreground: 215 20% 65%;
+
+    --accent: 142 72% 29%;
+    --accent-foreground: 355 7% 97%;
+
+    --destructive: 0 62% 50%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 224 71% 15%;
+    --input: 224 71% 15%;
+    --ring: 220 87% 56%;
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
