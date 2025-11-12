@@ -17,18 +17,14 @@ const Demo = () => {
           {/* División izquierda - Video de YouTube */}
           <div className="space-y-6">
             <div className="relative aspect-video bg-muted rounded-lg border border-border overflow-hidden">
-              {/* PLACEHOLDER PARA VIDEO DE YOUTUBE - Reemplazar este div con el iframe del video */}
-              <div className="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-primary/10 to-secondary/10">
-                <div className="text-center">
-                  <Play className="w-16 h-16 text-primary mx-auto mb-4" />
-                  <p className="text-muted-foreground font-medium">
-                    Adjuntar video de YouTube aquí
-                  </p>
-                  <p className="text-sm text-muted-foreground mt-2">
-                    Reemplazar este placeholder con el iframe del video
-                  </p>
-                </div>
-              </div>
+              {/* Video embebido de YouTube */}
+              <iframe
+                className="absolute inset-0 w-full h-full"
+                src="https://www.youtube.com/embed/dhwZBx9cvtc"
+                title="Demostración de Glottia"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
             </div>
           </div>
 
