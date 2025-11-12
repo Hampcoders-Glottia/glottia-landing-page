@@ -8,23 +8,28 @@ import {
 } from "@/components/ui/carousel";
 import { CheckCircle, MessageSquare, Users, Globe } from "lucide-react";
 
+import solutionImage1 from "@/assets/usuario-aprendiz.jpeg";
+import solutionImage2 from "@/assets/partner.jpeg";
+import solutionImage3 from "@/assets/partner2.jpeg";
+import solutionImage4 from "@/assets/reserva.jpeg";
+
 const Solution = () => {
   // TODO: Replace these placeholder images with your actual solution images
   const solutionImages = [
    {
-      src: "src/assets/usuario-aprendiz.jpeg", // REPLACE WITH YOUR IMAGE: Add your first solution image here
+      src: solutionImage1, // REPLACE WITH YOUR IMAGE: Add your first solution image here
       alt: "Glottia App Screenshot 1"
     },
     {
-      src: "src/assets/partner.jpeg", // REPLACE WITH YOUR IMAGE: Add your second solution image here
+      src: solutionImage2, // REPLACE WITH YOUR IMAGE: Add your second solution image here
       alt: "Glottia App Screenshot 2"
     },
     {
-      src: "src/assets/partner2.jpeg", // REPLACE WITH YOUR IMAGE: Add your third solution image here
+      src: solutionImage3, // REPLACE WITH YOUR IMAGE: Add your third solution image here
       alt: "Glottia App Screenshot 3"
     },
     {
-      src: "src/assets/reserva.jpeg", // REPLACE WITH YOUR IMAGE: Add your fourth solution image here
+      src: solutionImage4, // REPLACE WITH YOUR IMAGE: Add your fourth solution image here
       alt: "Glottia App Screenshot 4"
     }
   ];

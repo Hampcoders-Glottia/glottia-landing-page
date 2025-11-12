@@ -17,6 +17,11 @@ const Team = () => {
       role: "Co-Fundador",
       description: "Responsable de diseño y desarrollo front end.",
     },
+        {
+      name: "Leandro Contreras Lopez",
+      role: "Co-Fundador",
+      description: "Responsable de diseño y desarrollo front end.",
+    },
   ];
 
   return (
