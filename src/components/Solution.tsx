@@ -24,7 +24,7 @@ const Solution = () => {
       alt: "Glottia App Screenshot 3"
     },
     {
-      src: "/placeholder.svg", // REPLACE WITH YOUR IMAGE: Add your fourth solution image here
+      src: "src/assets/reserva.jpeg", // REPLACE WITH YOUR IMAGE: Add your fourth solution image here
       alt: "Glottia App Screenshot 4"
     }
   ];
