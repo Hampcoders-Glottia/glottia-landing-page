@@ -11,16 +11,16 @@ import { CheckCircle, MessageSquare, Users, Globe } from "lucide-react";
 const Solution = () => {
   // TODO: Replace these placeholder images with your actual solution images
   const solutionImages = [
-    {
-      src: "/placeholder.svg", // REPLACE WITH YOUR IMAGE: Add your first solution image here
+   {
+      src: "src/assets/usuario-aprendiz.jpeg", // REPLACE WITH YOUR IMAGE: Add your first solution image here
       alt: "Glottia App Screenshot 1"
     },
     {
-      src: "/placeholder.svg", // REPLACE WITH YOUR IMAGE: Add your second solution image here
+      src: "src/assets/partner.jpeg", // REPLACE WITH YOUR IMAGE: Add your second solution image here
       alt: "Glottia App Screenshot 2"
     },
     {
-      src: "/placeholder.svg", // REPLACE WITH YOUR IMAGE: Add your third solution image here
+      src: "src/assets/partner2.jpeg", // REPLACE WITH YOUR IMAGE: Add your third solution image here
       alt: "Glottia App Screenshot 3"
     },
     {
