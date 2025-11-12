@@ -5,23 +5,18 @@ const Team = () => {
     {
       name: "Matias Aliaga Aguirre",
       role: "Co-Fundador",
-      description: "Encargado del desarrollo backend."
+      description: "Encargado del desarrollo backend.",
     },
     {
       name: "Italo Sanchez Manrique",
       role: "Fundador",
-      description: "Responsable de diseño y desarrollo front end."
+      description: "Responsable de diseño y desarrollo front end.",
     },
     {
       name: "Ivo Machado Bracamonte",
       role: "Co-Fundador",
-      description: "Responsable de diseño y desarrollo front end."
+      description: "Responsable de diseño y desarrollo front end.",
     },
-    {
-      name: "Leandro Contreras Lopez",
-      role: "Co-Fundador",
-      description: "Encargado del desarrollo backend."
-    }
   ];
 
   return (
@@ -32,7 +27,8 @@ const Team = () => {
             Nuestro Equipo
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Conoce al equipo apasionado detrás de Glottia, trabajando para revolucionar el aprendizaje de idiomas
+            Conoce al equipo apasionado detrás de Glottia, trabajando para
+            revolucionar el aprendizaje de idiomas
           </p>
         </div>
 
@@ -40,7 +36,9 @@ const Team = () => {
         <div className="max-w-4xl mx-auto mb-16">
           <Card className="overflow-hidden">
             <CardHeader>
-              <CardTitle className="text-2xl text-center">Miembros del Equipo</CardTitle>
+              <CardTitle className="text-2xl text-center">
+                Miembros del Equipo
+              </CardTitle>
             </CardHeader>
             <CardContent className="p-0">
               <div className="overflow-x-auto">
@@ -60,7 +58,10 @@ const Team = () => {
                   </thead>
                   <tbody className="divide-y divide-border">
                     {teamMembers.map((member, index) => (
-                      <tr key={index} className="hover:bg-muted/50 transition-colors">
+                      <tr
+                        key={index}
+                        className="hover:bg-muted/50 transition-colors"
+                      >
                         <td className="px-6 py-4 text-sm font-medium text-foreground">
                           {member.name}
                         </td>
@@ -84,15 +85,14 @@ const Team = () => {
           <h3 className="text-2xl font-semibold text-foreground mb-6">
             Conoce a Nuestro Equipo
           </h3>
-          <div className="aspect-video bg-muted rounded-lg flex items-center justify-center border-2 border-dashed border-border">
-            <div className="text-center">
-              <p className="text-muted-foreground text-lg mb-2">
-                📹 Video del Equipo
-              </p>
-              <p className="text-sm text-muted-foreground">
-                Adjunta aquí el video del equipo
-              </p>
-            </div>
+          <div className="aspect-video rounded-lg overflow-hidden border border-border">
+            <iframe
+              className="w-full h-full"
+              src="https://www.youtube.com/embed/dhwZBx9cvtc"
+              title="Video del Equipo Glottia"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
           </div>
         </div>
       </div>
