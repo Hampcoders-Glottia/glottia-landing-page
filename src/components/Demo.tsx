@@ -20,7 +20,7 @@ const Demo = () => {
               {/* Video embebido de YouTube */}
               <iframe
                 className="absolute inset-0 w-full h-full"
-                src="https://youtu.be/inAOO-xbTYc?si=TEMJvhWGW8flQ96p"
+                src="https://www.youtube.com/embed/inAOO-xbTYc"
                 title="Demostración de Glottia"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
