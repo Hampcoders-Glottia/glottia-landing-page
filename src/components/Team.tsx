@@ -93,7 +93,7 @@ const Team = () => {
           <div className="aspect-video rounded-lg overflow-hidden border border-border">
             <iframe
               className="w-full h-full"
-              src="https://www.youtube.com/embed/dhwZBx9cvtc"
+              src="https://www.youtube.com/embed/S2RB1lCP13c"
               title="Video del Equipo Glottia"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
